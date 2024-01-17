@@ -12,13 +12,13 @@ const Footer = () => {
 
         <ul className="flex items-center gap-x-3 sm:gap-x-6  ">
           {FooterList1.map(({ id, title }) => (
-            <li className="hover:underline cursor-pointer" key={id}>{title}</li>
+            <li  key={id} className="hover:underline cursor-pointer">{title}</li>
           ))}
         </ul>
 
         <ul className="flex items-center gap-x-6 ">
           {FooterList2.map(({ id, title }) => (
-            <li className="hover:underline cursor-pointer" key={id}>{title}</li>
+            <li key={id} className="hover:underline cursor-pointer" >{title}</li>
           ))}
         </ul>
       </div>

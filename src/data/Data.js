@@ -1,12 +1,12 @@
 export const FooterList1 = [
   { id: 1, title: "About" },
-  { id: 1, title: "Advertising" },
-  { id: 1, title: "Business" },
-  { id: 1, title: "How Search works " },
+  { id: 2, title: "Advertising" },
+  { id: 3, title: "Business" },
+  { id: 4, title: "How Search works " },
 ];
 
 export const FooterList2 = [
   { id: 1, title: "Privacy" },
-  { id: 1, title: "Terms" },
-  { id: 1, title: "Settings" },
+  { id: 2, title: "Terms" },
+  { id: 3, title: "Settings" },
 ];

@@ -50,9 +50,7 @@ const SearchHome = () => {
         <button type="submit" onClick={handleSubmit} className="btn">Google Search</button>
         <button  type="submit" onClick={randomSearch} className="btn flex justify-center items-center">
         {loading ? <Image src="spinner.svg" alt="loading" width={24} height={24} className=" text-center"/>
-
         :" I am Feeling Lucky"}
-       
         </button>
       </div>
     </>
