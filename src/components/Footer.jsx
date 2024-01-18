@@ -10,7 +10,7 @@ const Footer = () => {
 
       <div className="flex flex-col sm:flex-row justify-between items-center px-8 py-3 gap-y-7 sm:gap-y-0">
 
-        <ul className="flex items-center gap-x-3 sm:gap-x-6  ">
+        <ul className="flex items-center gap-x-2 sm:gap-x-6  ">
           {FooterList1.map(({ id, title }) => (
             <li  key={id} className="hover:underline cursor-pointer">{title}</li>
           ))}
