@@ -4,6 +4,7 @@ import Link from "next/link";
 import BoxSearch from "./BoxSearch";
 import { RiSettings3Line } from "react-icons/ri";
 import { TbGridDots } from "react-icons/tb";
+import HeaderSearchOptions from "./HeaderSearchOptions";
 
 
 const HeaderSearch = () => {
@@ -29,6 +30,8 @@ const HeaderSearch = () => {
       </button>
 
       </div>
+
+      <HeaderSearchOptions/>
     </header>
   )
 }
