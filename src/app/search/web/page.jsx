@@ -3,10 +3,10 @@ import axios from "axios";
 import Link from "next/link";
 
 const WebSearch = async ({ searchParams }) => {
-  await new Promise((resolve) => setTimeout(resolve, 10000));
+  const startIndex = searchParams.start || "1";
   const { data } =
     await axios.get(`https://www.googleapis.com/customsearch/v1?key=AIzaSyAcQ1MP-WEhaOpxn_m_t7infy3Yru-KnKs&cx=97b4948a6c9c14e02
-    &cx=97b4948a6c9c14e02&q=${searchParams.searchTerm}`);
+    &cx=97b4948a6c9c14e02&q=${searchParams.searchTerm}&start=${startIndex}`);
   const results = data.items;
   
 

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
+import Pagintaion from './Pagintaion';
 
 const ImageSearchResult = ({results}) => {
   return (
@@ -28,6 +29,10 @@ const ImageSearchResult = ({results}) => {
             </div>
           </div>
         ))}      
+        </div>
+
+        <div className=' ml-16'>
+        <Pagintaion/>
         </div>
     </div>
   )

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Parser from "html-react-parser"
+import Pagintaion from "./Pagintaion";
 const WebSearchResult = ({results}) => {
   
   return (
@@ -28,6 +29,8 @@ const WebSearchResult = ({results}) => {
         <p className="text-gray-600 text-sm">{Parser(result.htmlSnippet)}</p>
       </div>
     ))}
+
+    <Pagintaion/>
 
   </div>
   
