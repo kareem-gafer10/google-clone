@@ -25,7 +25,7 @@ const HeaderSearch = () => {
           <TbGridDots className="header-icon" />
       </div>
 
-      <button className="bg-blue-500 text-white px-6 py-2 font-medium rounded-md hover:brightness-105 hover:shadow-md transition-all ml-2">
+      <button className=" hidden sm:block bg-blue-500 text-white px-6 py-2 font-medium rounded-md hover:brightness-105 hover:shadow-md transition-all ml-2">
           Sign in
       </button>
 
