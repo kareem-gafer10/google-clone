@@ -5,7 +5,7 @@ import Link from "next/link";
 const WebSearch = async ({ searchParams }) => {
   const startIndex = searchParams.start || "1";
   const { data } =
-    await axios.get(`https://www.googleapis.com/customsearch/v1?key=AIzaSyAcQ1MP-WEhaOpxn_m_t7infy3Yru-KnKs&cx=97b4948a6c9c14e02
+    await axios.get(`https://www.googleapis.com/customsearch/v1?key=AIzaSyByy-HG9eS-FD_5wr4pjlYKdshtkDpOwWg&cx=97b4948a6c9c14e02
     &cx=97b4948a6c9c14e02&q=${searchParams.searchTerm}&start=${startIndex}`);
   const results = data.items;
   
